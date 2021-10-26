@@ -10,7 +10,7 @@ p{font-family: Nunito;}
 a:visited {
   color: rgb(235, 233, 233);
 }
-a::before{
+a:link{
   color: rgb(235, 233, 233);
 }
 .icon{
