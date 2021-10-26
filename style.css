@@ -10,6 +10,9 @@ p{font-family: Nunito;}
 a:visited {
   color: rgb(235, 233, 233);
 }
+a::before{
+  color: rgb(235, 233, 233);
+}
 .icon{
   width: 200px;
   display: block;
@@ -75,7 +78,7 @@ font-family: Nunito;
   background-color:#C4C4C4;
   padding:20px;
   margin: 400px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   margin-top: 0px;
 
 }
@@ -113,12 +116,48 @@ nav li {
       
 }
 .album{
-  width: 300px;
+  width: 250px;
+  margin-bottom: 20px;
 }
+.album:hover {
+  width:300px;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+.tts {
+position: absolute;
+left: 240px;
+}
+
+.ts{
+margin-top: 50px;
+position: absolute;
+left: 470px;
+}
+
+.td{
+position: absolute;
+margin-top: 100px;
+left: 700px;
+padding-bottom: 50px;
+}
+
+.thc{
+margin-top: 50px;
+position: absolute;
+left: 930px;
+}
+
+.gsp{
+position: absolute;
+left: 1160px;
+  }
+
+
 .collection{
   display: flex;
-  justify-content: space-around;
-
+  justify-content: center;
   }
 .homelink { background-color:#846A52;color: white;}
 .translationlink { background-color:#340C4D;color: white}
