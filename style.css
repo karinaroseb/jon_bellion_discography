@@ -6,7 +6,7 @@ img {width: 100%;}
 a { text-decoration: none;}
 h1{font-family: 'Cairo', sans-serif;text-align: center;font-size: 150%};
 h2{font-family: 'Titillium Web', sans-serif;font-size: 100%};
-p{font-family: Nunito;};
+p{font-family: Nunito;}
 a:visited {
   color: rgb(235, 233, 233);
 }
@@ -74,7 +74,7 @@ font-family: Nunito;
 .index .content{
   background-color:#C4C4C4;
   padding:20px;
-  margin: 300px;
+  margin: 400px;
   margin-bottom: 10px;
   margin-top: 0px;
 
@@ -113,10 +113,12 @@ nav li {
       
 }
 .album{
-  width: 100%;
+  width: 300px;
 }
 .collection{
   display: flex;
+  justify-content: space-around;
+
   }
 .homelink { background-color:#846A52;color: white;}
 .translationlink { background-color:#340C4D;color: white}
