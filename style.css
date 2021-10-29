@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Nunito:wght@300&family=Titillium+Web&display=swap');
 
 * {box-sizing: border-box;}
-body { margin:0;background-color: #EDEEEE;}
+body { margin: 0;;background-color: #EDEEEE;}
 img {width: 100%;}
 a { text-decoration: none;}
 h1{font-family: 'Cairo', sans-serif;text-align: center;font-size: 150%};
@@ -98,8 +98,9 @@ font-family: Nunito;
   background-color:#F1C69C;
 }
 .center-content {
-  padding:20px;
+  padding: 40px;
   margin: 60px;
+  padding-top: 30px;
 }
 
 nav ul {
@@ -108,9 +109,9 @@ nav ul {
   flex-direction: column;
 }
 nav li {
-    margin-bottom:20px;
+    margin-bottom:0px;
     width:60px;
-    padding: 5px;
+    padding: 0px;
     justify-content:flex-end;
     text-align: center;
       
@@ -159,12 +160,35 @@ left: 1160px;
   display: flex;
   justify-content: center;
   }
-.homelink { background-color:#846A52;color: white;}
-.translationlink { background-color:#340C4D;color: white}
+
+.links{
+display: flex;
+justify-content: space-around;
+margin-top: 100px;
+}
+.spotify{
+  width: 35px;
+}
+.genius{
+  height: 30px;
+  background-color: white;
+}
+.button{
+  padding: 5px;
+}
+.human .button{
+background-color:#6C1F20 ;
+
+}
+.sound .button{
+  background-color:#153437;
+}
+.homelink { background-color:#846A52;color: white; margin-bottom:5px; padding: 5px;}
+/*.translationlink { background-color:#340C4D;color: white}
 .seperationlink{ background-color:#303557;color: white}
 .definitionlink{ background-color:#634152;color: white}
 .humanlink { background-color:#6C1F20;color: white}
-.soundlink { background-color:#153437;color: white}
+.soundlink { background-color:#153437;color: white} */
 .maintitle{
   font-family: 'Cairo', sans-serif;
   text-align: center;
