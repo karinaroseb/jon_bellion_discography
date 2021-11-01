@@ -13,6 +13,9 @@ a:visited {
 a:link{
   color: rgb(235, 233, 233);
 }
+.homelink a{
+  padding: 5px 8px;
+}
 .icon{
   width: 200px;
   display: block;
