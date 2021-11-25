@@ -75,14 +75,15 @@ a:link{
 flex: 10%;
 padding: 20px;
 font-family: Nunito;
-
 }
+
 .index .content{
   background-color:#C4C4C4;
   padding:20px;
-  margin: 400px;
+  margin: 20%;
   margin-bottom: 50px;
   margin-top: 0px;
+  align-self: center;
 
 }
 .translation .center-content {
@@ -122,42 +123,37 @@ nav li {
 .album{
   width: 250px;
   margin-bottom: 20px;
+  transition: transform .2s; /* Animation */
+  max-width: 100%;
+  height: auto;
 }
 .album:hover {
-  width:300px;
-  height:auto;
-  display:block;
-  z-index:999;
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-.tts {
-position: absolute;
-left: 240px;
+
+.td{
+align-self: center;
+margin-top: 100px;
+padding-bottom: 50px;
 }
 
 .ts{
 margin-top: 50px;
-position: absolute;
-left: 470px;
-}
-
-.td{
-position: absolute;
-margin-top: 100px;
-left: 700px;
-padding-bottom: 50px;
+align-self: center;
 }
 
 .thc{
 margin-top: 50px;
-position: absolute;
-left: 930px;
+align-self: center;
 }
 
-.gsp{
-position: absolute;
-left: 1160px;
+.tts {
+align-self: center;
   }
 
+.gsp{
+align-self: center;
+  }
 
 .collection{
   display: flex;
